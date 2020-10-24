@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var question1 = prompt ("Give me a number");
+    var question2 = prompt ("Give me another number");
+    var question3 = prompt ("What kind of operation do you want? Mul, Div, Mod");
+    if (question3 === "Mul" || question3 === "mul"){
+      var mul = (question1 * question2);
+      console.log ("Your answer is " + mul);
+    }else if (question3 === "Div" || question3 === "div"){
+      var div = (question1 / question2);
+      console.log ("Your answer is " + div);
+    }else if (question3 === "Mod" || question3 === "mod"){
+      var mod = question1 % question2
+      console.log (("Your answer is ") + mod);
+    } else {
+      console.log ("ERROR");
+    }
+    </script>
+  </body>
+</html>
